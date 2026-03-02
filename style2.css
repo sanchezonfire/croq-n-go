@@ -340,4 +340,61 @@ nav a:hover { background: #E6A670; }
     filter: none !important; 
     -webkit-filter: none !important;
     box-shadow: none !important;
+
+}
+.datos-contacto {
+    width: 95%;
+}
+
+.mapa-container {
+    width: 95%;
+}
+
+nav a {
+    display: block;
+    margin: 10px 0;
+}
+@media (max-width: 768px) {
+
+  .canvas {
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  .polaroid,
+  .banner-pide,
+  .sticker-maga,
+  .spotify-frame {
+    position: static;
+    transform: none;
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .banner-pide {
+    font-size: 1.5rem;
+    padding: 15px 20px;
+    text-align: center;
+    white-space: normal;
+  }
+
+  .sticker-maga {
+    font-size: 1.5rem;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .spotify-frame {
+    width: 100%;
+  }
+
+  .main-logo {
+    max-width: 90%;
+  }
+
 }
